@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Sample Express Ajax</title>
+    <link rel="stylesheet" href="node_modules/froala-editor/css/froala_style.min.css" />
+    <link rel="stylesheet" href="node_modules/froala-editor/css/froala_editor.pkgd.min.css" />
+</head>
+
+<body>
+    <h1>Sample NodeJS Froala</h1>
+    <div id="editor">
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/froala-editor/js/froala_editor.pkgd.min.js"></script>
+    <script type="text/javascript">
+    $.get('/get_signature', {})
+        .done(function(s3Hash) {
+            new FroalaEditor('div#editor', { imageUploadToS3: s3Hash })
+        });
+    </script>
+</body>
+
+</html>
