@@ -22,7 +22,7 @@
     "wysiwyg-editor-node-sdk": "^3.0.0-beta.1"
   },
   "dependencies": {
-    "froala-editor": "^3.0.0",
+    "froala-editor": "^4.0.7",
     "jquery": "^3.4.1"
   }
 }
