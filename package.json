@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/navneetnagpal/express-nodejs-restapi#readme",
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "wysiwyg-editor-node-sdk": "^3.0.0-beta.1"
   },
   "dependencies": {
